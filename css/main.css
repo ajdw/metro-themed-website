@@ -388,3 +388,192 @@ footer {
 #footer span {
 	font-size: 12px;
 }
+
+/* MEDIA QUERIES AND BREAKPOINTS */
+
+/* Laptops (1024px) */
+@media screen and (max-width: 1024px) {
+
+#social #social-icons {
+	position: relative;
+	top: 10px;
+	left: 50px;
+}
+
+#social-icons a {
+	padding-left: 10px;
+}
+
+#social-icons .fa, #social-icons h3 {
+	position: relative;
+	left: 25px;
+	text-align: center;
+
+}
+
+}
+
+/* Tablets (768px) */
+@media screen and (max-width: 768px) {
+
+#contact {
+	padding: 60px;
+	}
+
+#social-icons .fa, #social-icons h3 {
+	position: relative;
+	left: 0px;
+}
+
+#social-icons a {
+	padding: 30px 28px;
+    margin-top: 20px;
+	}
+
+#social #social-icons {
+	position: relative;
+	left: 0;
+}
+
+}
+
+/* Smartphones (480px) */
+@media screen and (max-width: 480px) {
+
+
+.sitenav li {
+	margin-right: -21px;
+    margin-left: -11px;
+    font-size: 13px;
+}
+
+
+#intro {
+	min-height: 500px;
+}
+
+#intro h1 {
+	font-size: 50px;
+}
+
+#social-icons a:first-child {
+	padding-right: 75px;
+}
+
+#social-icons a:nth-child(n+2){
+	margin-left: 0%;
+	margin-top: 1%;
+	padding-right: 19%;
+}
+
+#social-icons a:last-child{
+	padding-right: 22%;
+}
+
+#social-icons a:nth-child(n+0) {
+	margin-left: 15%;
+}
+
+#contact {
+    background-color: #30282a;
+    font-family: 'Teko', sans-serif;
+    padding: 50px;
+}
+
+#contact div {
+    background-color: #f63c3c;
+    color: #fff;
+    margin: 0px 24px;
+    padding: 14px 75px;
+
+}
+
+/* Mobile Display (480px) */
+@media screen and (max-width: 480px) {
+
+.sitenav a {
+    padding: 21px 21px;
+}
+#contact div {
+    margin-left: 55px;
+}
+
+#social-icons a:first-child {
+    padding-right: 83px;
+}
+
+#social-icons a:last-child {
+    padding-right: 83px;
+}
+
+.sitenav li {
+    margin-right: -21px;
+    margin-left: -3px;
+    font-size: 11px;
+}
+ }
+
+
+  /* iPhone 6 (375px) */
+@media screen and (max-width: 376px) {
+
+.logo {
+	position: relative;
+	left: -35px;
+
+}
+
+#social-icons a {
+	height: 50px;
+	width: 50px;
+}
+
+#social-icons a:first-child {
+    width: 46px;
+}
+
+#social-icons a:last-child {
+    width: 40px;
+}
+
+
+}
+
+ /* iPhone 6 Plus (414px) */
+@media screen and (max-width: 414px) {
+
+.sitenav li:last-child {
+	display: none;
+}
+
+#social-icons a:last-child {
+    padding-right: 23%;
+}
+
+#social-icons a:first-child {
+    padding-right: 60px;
+}
+
+nav {
+	height: 50px;
+}
+.sitenav li {
+	position: relative;
+	top: -40px;
+	left: 15px;
+    margin-right: -21px;
+    margin-left: -2px;
+    font-size: 13px;
+}
+
+#contact div {
+    margin: 1px 22px;
+}
+
+}
+
+@media screen and (max-width: 320px) {
+
+.sitenav a {
+    padding: 6px 12px;
+}
